@@ -1,0 +1,150 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  
+}
+
+.head {
+    display: flex;
+    justify-content: space-between;
+    padding:10px
+    ;
+}
+
+.topup{
+    display: flex;
+    justify-content: flex-start;
+    font-size: 30px;
+    padding-top: 20px;
+    padding-left: 20px;
+    font-weight: bolder;
+}
+body {
+    width: 1000px;
+    height: 400px;
+    border: 1px solid rgba(62, 61, 61, 0.707) ;
+}
+
+.container {
+    border: 1px solid black;
+    width: 500px;
+    height: 300px;
+    margin-left: 20px;
+    padding-left: 20px;
+}
+
+.trashbin{
+    width: 20px;
+    height: 20px;
+    border: 1px solid #00ffaa;
+    border-radius: 50px;
+    position: relative;
+    top: 30px;
+}
+
+.twobox {
+    display: flex;
+    gap: 20px
+    ;
+}
+
+.container2 {
+    border: 1px solid black;
+    width: 400px;
+    height: 200px;
+}
+
+.box1{
+    display: flex;
+    justify-content: space-between;
+    padding-right: 100px;
+    padding-bottom: 50px;
+    padding-top: 20px;
+}
+
+.box2{
+    display: flex;
+    justify-content: space-between;
+    padding-right: 100px;
+}
+
+.Docs {
+    background-color: rgb(0, 94, 255);
+    width: 200px;
+    height: 100px;
+    border-radius: 10%;
+    
+}
+.Slides {
+    background-color: orange;
+    width: 200px;
+    height: 100px;
+    border-radius: 10%;
+}
+
+.gcircle {
+    width: 20px;
+    height: 20px;    
+}
+
+.box3{
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.order1 {
+    padding-top: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+
+.coupon{
+    width: 20px;
+    height: 20px; 
+}
+
+.inputbox2{
+    width: 290px;
+}
+
+.buttonbox2{
+    color: #00ffaa;
+    background-color: white;
+    border-color: #00ffaa;
+    border-radius: 30%;
+}
+
+.order2 {
+    padding-top: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-bottom: 20px;
+}
+
+.finalbutton {
+    width: 350px;
+    background-color: #00ffaa;
+    color: black;
+    border: 1px solid  #00ffaa;
+    border-radius: 10%;
+}
+
+.imagetop {
+    width: 20px;
+    height: 20px; 
+}
+
+.docimage {
+    width: 50px;
+    height: 50px; 
+}
+
+.slideimage {
+    width: 50px;
+    height: 50px; 
+}
